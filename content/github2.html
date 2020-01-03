@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Build GitHub Pages</title>
+    <style>
+        span {
+            background-color: #e9e9e9;
+            padding: 2px 6px;
+        }
+    </style>
+</head>
+<body>
+<h1>使用github搭建静态页面</h1>
+<p>进入 <a href="https://github.com">GitHub</a> 网站新建项目，选取 ssh地址</p>
+<ol>
+    <li>
+        <p>新建 project 文件夹</p>
+        <span>mkdir project</span>
+    </li>
+    <li>
+        <p>进入 project</p>
+        <span>cd project</span>
+    </li>
+    <li>
+        <p>新建 页面</p>
+        <span>touch index.html</span>
+    </li>
+    <li>
+        <p>使用编辑器在 index.html 文件中写入你要展示的页面</p>
+    </li>
+    <li>
+        <p>本地打开终端,进入文件夹</p>
+        <p>初始化git</p>
+        <span>git init</span>
+    </li>
+    <li>
+        <p>添加需要git的目录</p>
+        <span>git add .</span>
+    </li>
+    <li>
+        <p>提交add的文件版本</p>
+        <span>git commit -v</span>
+    </li>
+    <li>
+        <p>添加远程仓库地址</p>
+        <span>git remote add origin (github项目的ssh地址)</span>
+    </li>
+    <li>
+        <p>上传master分支到 远程仓库</p>
+        <span>git push -u origin master</span>
+    </li>
+    <li>进入github项目 >> setting >> GitHub Pages >> 选择 master 分支<br>
+        <a href="https://ganjuemele.github.io/mele-blog/">静态页面</a> 搭建成功
+    </li>
+</ol>
+
+<hr>
+</body>
+</html>
