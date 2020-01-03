@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        span {
+            padding: 2px 6px;
+        }
+        div {
+            width: 80%;
+            background-color: #e9e9e9;
+        }
+    </style>
+    <title>var, let, const的区别</title>
+</head>
+<body>
+<h1>var, let, const的区别</h1>
+<ol>
+    <li>
+        <p>const定义的<strong> 常量 </strong>不可以修改，而且必须初始化。</p>
+        <div >
+            <span> const b = 2; //正确</span><br>
+            <span> const b; //错误，必须初始化 </span><br>
+            <span> console.log('函数外const定义b：' + b); //有输出值</span><br>
+            <span> b = 5; </span><br>
+            <span> console.log('函数外修改const定义b：' + b); //无法输出</span><br>
+        </div>
+    </li>
+    <li>
+        <p>var定义的<strong> 变量 </strong>可以修改，如果不初始化会输出undefined，不会报错。</p>
+        <div>
+            <span> var a = 1; </span><br>
+            <span> var a; //不会报错 </span><br>
+            <span> console.log('函数外var定义a：' + a); //可以输出a=1</span><br>
+            <span> function change(){</span><br>
+            <span> &nbsp&nbsp&nbsp&nbsp&nbspa = 4; </span><br>
+            <span> &nbsp&nbsp&nbsp&nbsp&nbspconsole.log('函数内var定义a：' + a); //可以输出a=4</span><br>
+            <span> }</span><br>
+            <span> change();</span><br>
+            <span> console.log('函数调用后var定义a为函数内部修改值：' + a); //可以输出a=4</span>
+        </div>
+    </li>
+    <li>
+        <p>let是 <strong>块级作用域</strong> ，函数内部使用let定义后，对函数外部无影响。</p>
+        <div>
+            <span> let c = 3;</span><br>
+            <span> console.log('函数外let定义c：' + c);//输出c=3</span><br>
+            <span> function change(){</span><br>
+            <span> &nbsp&nbsp&nbsp&nbsplet c = 6;</span><br>
+            <span> &nbsp&nbsp&nbsp&nbspconsole.log('函数内let定义c：' + c);//输出c=6</span><br>
+            <span> }</span><br>
+            <span> change();</span><br>
+            <span> console.log('函数调用后let定义c不受函数内部定义影响：' + c);//输出c=3</span>
+        </div>
+    </li>
+</ol>
+</body>
+</html>
