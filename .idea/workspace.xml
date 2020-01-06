@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/border-box/box-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/rainbow/rainbow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/rainbow/rainbow.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/border-box/border-box.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/box-model/border-box.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/border-box/box-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/box-model/box-model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/border-box/box.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/box-model/box.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/border-box/box.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/box-model/box.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/border-box/content-box.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/box-model/content-box.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,23 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/border-box/box.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/border-box/box-model.html">
+        <entry file="file://$PROJECT_DIR$/content/box-model/box-model.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -92,11 +82,11 @@
         <option value="$PROJECT_DIR$/content/1.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/content/ternary.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/content/rainbow/rainbow.html" />
         <option value="$PROJECT_DIR$/content/rainbow/rainbow.css" />
         <option value="$PROJECT_DIR$/content/border-box/box.md" />
         <option value="$PROJECT_DIR$/content/border-box/box-model.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -128,7 +118,7 @@
               <item name="mele-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mele-blog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="border-box" type="462c0819:PsiDirectoryNode" />
+              <item name="box-model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mele-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -182,12 +172,12 @@
       <workItem from="1578029665275" duration="528000" />
       <workItem from="1578030824864" duration="149000" />
       <workItem from="1578032101777" duration="1871000" />
-      <workItem from="1578034267512" duration="14660000" />
+      <workItem from="1578034267512" duration="14951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17208000" />
+    <option name="totallyTimeSpent" value="17499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="699" y="23" width="732" height="858" extended-state="0" />
@@ -282,16 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/rainbow/rainbow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -306,7 +286,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/border-box/box.md">
+    <entry file="file://$PROJECT_DIR$/content/box-model/box.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="30">
@@ -316,10 +296,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/border-box/box-model.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/box-model/box-model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
