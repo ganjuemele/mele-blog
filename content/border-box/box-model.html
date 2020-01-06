@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>box-model</title>
+    <style>
+        span {
+            background-color: #dedede;
+            padding: 5px;
+        }
+        div {
+            padding: 5px;
+            background-color: #dedede;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+<h1>box-model盒模型</h1>
+<img src="box.jpg" alt="盒模型">
+<ul>
+    <li>
+        <h3>content-box</h3>
+        <div>
+            <span>
+                .content {<br>
+                &nbsp&nbsp&nbsp&nbspborder: 5px solid mediumvioletred;<br>
+                &nbsp&nbsp&nbsp&nbsppadding: 30px;<br>
+                &nbsp&nbsp&nbsp&nbspmargin: 50px;<br>
+                &nbsp&nbsp&nbsp&nbspwidth: 200px;<br>
+                &nbsp&nbsp&nbsp&nbspbackground-color: #dee4f3;<br>
+                &nbsp&nbsp&nbsp&nbspbox-sizing: content-box;<br>
+                }
+            </span>
+        </div>
+        <img src="content-box.jpg" alt="内容盒"><br>
+        <span>box-sizing: content-box; </span><p>// 设置以内容的width为基准</p>
+        <p>内容的宽度 = width</p>
+    </li>
+    <li>
+        <h3>border-box</h3>
+        <div>
+            <span>
+                .box {<br>
+                &nbsp&nbsp&nbsp&nbspborder: 5px solid orange;<br>
+                &nbsp&nbsp&nbsp&nbsppadding: 30px;<br>
+                &nbsp&nbsp&nbsp&nbspmargin: 50px;<br>
+                &nbsp&nbsp&nbsp&nbspwidth: 200px;<br>
+                &nbsp&nbsp&nbsp&nbspbackground-color: #22ff22;<br>
+                &nbsp&nbsp&nbsp&nbspbox-sizing: border-box;<br>
+                }
+            </span>
+        </div>
+        <img src="border-box.jpg" alt="边框盒"><br>
+        <span>box-sizing: border-box;</span><p>// 设置以border边框为基准</p>
+        <p>width= 内容+padding+border</p>
+    </li>
+</ul>
+
+
+⚠️<strong>️border-box比content-box更好用一点</strong>
+
+</body>
+</html>
