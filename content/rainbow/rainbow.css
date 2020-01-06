@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
     background: white;
 }
 .sky {
@@ -14,32 +12,28 @@ body {
     overflow: hidden;
     background: hotpink;
 }
+.sky div {
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+}
 .sky > div {
     background-color: red;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 10px;
     width: 280px;
     height: 230px;
     border: 10px solid purple;
 }
 .sky > div >div {
     background: green;
-    overflow: hidden;
     border: blue solid 10px;
-    border-radius: 50%;
     width: 240px;
     height: 190px;
-    margin: 10px;
 }
 .sky > div > div > div {
     background-color: white;
-    overflow: hidden;
     border: yellow 10px solid;
     width: 200px;
     height: 150px;
-    margin: 10px;
-    border-radius: 50%;
 }
 #over {
     position: absolute;
