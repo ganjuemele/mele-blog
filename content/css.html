@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>CSS</title>
+    <style>
+        span {
+            padding: 5px 5px;
+            background-color: #efefef;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+<h2> Flexbox</h2>
+<p>
+    <span>display: flex;</span>
+</p>
+<strong>align-items</strong>纵向对齐元素，可选以下几个值：
+<ul>
+    <li><strong>flex-start</strong>: 元素与容器的顶部对齐。</li>
+    <li><strong>flex-end</strong>: 元素与容器的底部对齐。</li>
+    <li><strong>center</strong>: 元素纵向居中。</li>
+    <li><strong>baseline</strong>: 元素在容器的基线位置显示。</li>
+    <li><strong>stretch</strong>: 元素被拉伸以填满整个容器。</li>
+</ul>
+
+<strong>justify-content</strong>横向对齐元素:
+<ul>
+    <li><strong>space-between</strong> ：分散对齐</li>
+    <li><strong>space-around</strong> ：平均等宽横向对齐</li>
+    <li><strong>flex-start(default)</strong>：默认 左对齐</li>
+    <li><strong>flex-end</strong> ：右对齐</li>
+    <li><strong>center</strong> ：居中</li>
+</ul>
+
+<strong>flex-direction</strong>属性定义了元素在容器里摆放的方向:
+<ul>
+    <li><strong>row</strong>: 元素摆放的方向和文字方向一致。</li>
+    <li><strong>row-reverse</strong>: 元素摆放的方向和文字方向相反。</li>
+    <li><strong>column</strong>: 元素从上放到下。</li>
+    <li><strong>column-reverse</strong>: 元素从下放到上。</li>
+</ul>
+
+<strong>order</strong>属性
+设置单个元素的<strong>order</strong>。元素的属性默认值为0，但是我们设置这个属性为正数或负数。改变的单个flex元素的顺序
+
+<strong>align-self</strong>设置其中单个元素的交叉轴位置
+<ul>
+    <li><strong>flex-start</strong>: 元素与容器的顶部对齐。</li>
+    <li><strong>flex-end</strong>: 元素与容器的底部对齐。</li>
+    <li><strong>center</strong>: 元素纵向居中。</li>
+    <li><strong>baseline</strong>: 元素在容器的基线位置显示。</li>
+    <li><strong>stretch</strong>: 元素被拉伸以填满整个容器。</li>
+</ul>
+
+<strong>flex-wrap</strong>
+<ul>
+
+    <li><strong>nowrap</strong>: 所有的元素都在一行。</li>
+    <li><strong>wrap</strong>: 元素自动换成多行。</li>
+    <li><strong>wrap-reverse</strong>: 元素自动换成逆序的多行。</li>
+</ul>
+
+<strong>flex-flow</strong>
+是 <strong>flex-direction</strong> + <strong>flex-wrap</strong>两个属性的合体
+可以同时接受两个 属性值。
+
+<strong>align-content</strong>来决定行与行之间隔多远。这个属性接受这些值：
+<ul>
+    <li><strong>flex-start</strong>: 多行都集中在顶部。</li>
+    <li><strong>flex-end</strong>: 多行都集中在底部。</li>
+    <li><strong>center</strong>: 多行居中。</li>
+    <li><strong>space-between</strong>: 行与行之间保持相等距离。</li>
+    <li><strong>space-around</strong>: 每行的周围保持相等距离。</li>
+    <li><strong>stretch</strong>: 每一行都被拉伸以填满容器。</li>
+</ul>
+<p>⚠️有些容易混淆，但<strong>align-content</strong>决定行之间的间隔，而<strong>align-items</strong>决定元素整体在容器的什么位置。只有一行的时候<strong>align-content</strong>没有任何效果。</p>
+
+<hr style="margin: 30px 10px">
+<h2> Grid</h2>
+<span>grid-column: 3 / 5; 还可以写成 span 2。</span> // 会从第三列的网格开始，这也是描述网格中从左起第三列边界的另一种方法。<br>
+<p><span>grid-row: 1 / 5; </span> 纵向。 </p>
+<p><span>grid-area: 1 / 1 / 3 / 5; </span>接受4个由’/‘分开的值：<strong>grid-row-start</strong>, <strong>grid-column-start</strong>, <strong>grid-row-end</strong>,
+最后是<strong>grid-column-end</strong>。</p>
+<p><strong>grid-template-columns: 20% 20% 20% 20% 20%; </strong> 设置为5列，每列占总宽度的20%；5行，每行占全部高度的20%。 </p>
+<p>每一条规则都有5个值，代表创建了5个列，每一列设置为总宽度的20%。但是你也可以任意设置网格项的宽度。</p>
+
+<strong>grid-template</strong>是 <strong>grid-template-rows</strong> 和 <strong>grid-template-columns</strong> 的缩写形式。<br>
+比如说，<strong>grid-template: 50% 50% / 200px; </strong>将创建一个具有两行的网格，每一行占据50%，以及一个200像素宽的列。
+<p>还能以 fr 为单位，意思为分为几份</p>
+
+
+</body>
+</html>
