@@ -14,10 +14,8 @@
     </style>
 </head>
 <body>
-<h2> Flexbox</h2>
-<p>
-    <span>display: flex;</span>
-</p>
+<h2 id="flexbox">Flexbox</h2>
+<p><span>display: flex;</span></p>
 <strong>align-items</strong>纵向对齐元素，可选以下几个值：
 <ul>
     <li><strong>flex-start</strong>: 元素与容器的顶部对齐。</li>
@@ -80,7 +78,8 @@
 <p>⚠️有些容易混淆，但<strong>align-content</strong>决定行之间的间隔，而<strong>align-items</strong>决定元素整体在容器的什么位置。只有一行的时候<strong>align-content</strong>没有任何效果。</p>
 
 <hr style="margin: 30px 10px">
-<h2> Grid</h2>
+<h2 id="grid">Grid</h2>
+<p><span>dispaly: grid; </span></p>
 <span>grid-column: 3 / 5; 还可以写成 span 2。</span> // 会从第三列的网格开始，这也是描述网格中从左起第三列边界的另一种方法。<br>
 <p><span>grid-row: 1 / 5; </span> 纵向。 </p>
 <p><span>grid-area: 1 / 1 / 3 / 5; </span>接受4个由’/‘分开的值：<strong>grid-row-start</strong>, <strong>grid-column-start</strong>, <strong>grid-row-end</strong>,
