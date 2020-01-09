@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/heart/heart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/demo.html">
+        <entry file="file://$PROJECT_DIR$/content/heart/heart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="420">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -67,6 +68,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/content/css.html" />
         <option value="$PROJECT_DIR$/content/demo.html" />
+        <option value="$PROJECT_DIR$/content/heart/heart.html" />
       </list>
     </option>
   </component>
@@ -93,6 +95,12 @@
               <item name="mele-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mele-blog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mele-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mele-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="heart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,12 +148,12 @@
       <workItem from="1578029665275" duration="528000" />
       <workItem from="1578030824864" duration="149000" />
       <workItem from="1578032101777" duration="1871000" />
-      <workItem from="1578034267512" duration="22413000" />
+      <workItem from="1578034267512" duration="25583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24961000" />
+    <option name="totallyTimeSpent" value="28131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="699" y="23" width="732" height="858" extended-state="0" />
@@ -293,8 +301,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="525">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/heart/heart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>

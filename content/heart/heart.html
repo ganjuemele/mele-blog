@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart</title>
+    <style>
+        .heart {
+            position: absolute;
+            margin-left: 50px;
+            display: flex;
+        }
+        .heart>div {
+            background-color: indianred;
+            height: 250px;
+            width: 150px;
+            position: relative;
+            -webkit-border-top-right-radius: 75px;
+            -webkit-border-top-left-radius: 75px;
+        }
+        .left {
+            transform: rotate(-45deg);
+        }
+        .right {
+            transform: rotate(45deg);
+            left: -80px;
+        }
+        .heart:hover {
+            transform: scale(0.6);
+            transition: 2s all;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">
+        <div class=" left"></div>
+        <div class=" right"></div>
+    </div>
+</body>
+</html>
