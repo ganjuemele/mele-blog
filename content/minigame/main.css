@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+}
+body {
+    position: absolute;
+    width: 100%;
+    /*border: lightblue solid 0.5px;*/
+    /*padding: 0 auto;*/
+}
+#main {
+    position: relative;
+    border: 0.5px black solid;
+    height: 152px;
+    width: 600px;
+    max-width: 601px;
+    margin: 30px auto 0;
+}
+.ground {
+    position: relative;
+    /*animation: ;*/
+}
+.dragon {
+    width: 36px;
+    height:36px;
+    border: solid 0.5px palevioletred;
+    position: relative;
+}
