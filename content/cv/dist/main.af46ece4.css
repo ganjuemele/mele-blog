@@ -11,5 +11,60 @@ a {
 a:hover {
     text-decoration: underline;
 }
+#demo {
+    word-break: break-all;
+    padding: 3px 5px;
+}
+#div1 {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+#div1::before {
+    content: "";
+    display: block;
+    position: absolute;
+}
+#div1::after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+@media (min-width: 500px) {
+    #demo {
+        width: 49%;
+        border-right: 0.5px solid black;
+        display: inline-flex;
+    }
+    #div1 {
+        position: relative;
+        border: 1px solid blue;
+    }
+    #div1Wrapper {
+        position: fixed;
+        display: inline-flex;
+        padding: auto 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #demo {
+        color: red;
+        width: 100%;
+        height: 64vh;
+        overflow: auto;
+        border: none;
+    }
+    #div1Wrapper {
+        border-top: #dedede double 0.5px;
+        height: 36vh;
+    }
+    #div1 {
+        position: relative;
+        top: 20px;
+    }
+}
 
 /*# sourceMappingURL=/main.af46ece4.css.map */

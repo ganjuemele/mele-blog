@@ -120,7 +120,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"main.js":[function(require,module,exports) {
 var html = document.querySelector("#demo");
 var style = document.querySelector('#style');
-var string = "/*\u4F60\u597D\uFF0C\u6211\u662F\u4E48\u4E86\uFF0C\u4E4B\u524D\u5728\u4E0A\u6D77\u4E00\u5BB6\u56FD\u4F01\u5C31\u804C\u3002\n\u63A5\u4E0B\u6765\u8981\u52A0\u70B9\u6837\u5F0F\u4E86\u3002*/\n* {\n  margin: 0;\n  padding: 0;\n}\n#demo {\n  border:1px solid black;\n}\n"; // console.log('string的长度'+string.length);
+var string = "/*\u4F60\u597D\uFF0C\u6211\u662F\u4E48\u4E86\u3002\n\u63A5\u4E0B\u6765\u52A0\u70B9\u6837\u5F0F\u3002*/\n* {\n  margin: 0;\n  padding: 0;\n}\n/*\u753B\u4E2A\u592A\u6781\u56FE\u5427*/\n#div1 {\n  border: 1px solid red;\n  width: 200px;\n  height: 200px;\n}\n#div1 {\n  border-radius: 50%;\n  box-shadow: 0 0 3px rgba(0,0,0,0.5);\n  border: none;\n}\n#div1 {\n  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);\n}\n/*\u52A0\u4E24\u4E2A\u6DF7\u5143\u73E0*/\n#div1::before {\n  width: 100px;\n  height: 100px;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  background: #000;\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);\n}\n#div1::after {\n  width: 100px;\n  height: 100px;\n  bottom: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  background: #fff;\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%, rgba(0,0,0,1) 100%);\n}\n"; // console.log('string的长度'+string.length);
 
 var n = 0;
 var string2 = "";
@@ -142,6 +142,7 @@ var step = function step() {
 
     if (n < string.length - 1) {
       window.scrollTo(0, 10000);
+      html.scrollTo(0, 10000);
       n += 1;
       step();
     }
@@ -177,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62776" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60592" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

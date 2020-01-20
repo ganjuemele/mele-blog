@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cv/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cv/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/cv/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/minigame/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/minigame/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/window.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/content/window.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/.cache/10/775771b2f10db1f2aac27e36daa2b0.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/10/775771b2f10db1f2aac27e36daa2b0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/.cache/52/bec8f96be44e2988fbd3515a4fba0f.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/52/bec8f96be44e2988fbd3515a4fba0f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/.cache/b3/fba2312d2bf8330727a438eba49af1.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/b3/fba2312d2bf8330727a438eba49af1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/.cache/ca/31b03ebc636293fe302b22a53ff992.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/ca/31b03ebc636293fe302b22a53ff992.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="160">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="261">
+              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -104,9 +113,9 @@
         <option value="$PROJECT_DIR$/content/minigame/main.css" />
         <option value="$PROJECT_DIR$/content/minigame/main.js" />
         <option value="$PROJECT_DIR$/content/heart/main.css" />
-        <option value="$PROJECT_DIR$/content/cv/src/main.css" />
-        <option value="$PROJECT_DIR$/content/cv/src/main.js" />
         <option value="$PROJECT_DIR$/content/cv/src/index.html" />
+        <option value="$PROJECT_DIR$/content/cv/src/main.js" />
+        <option value="$PROJECT_DIR$/content/cv/src/main.css" />
       </list>
     </option>
   </component>
@@ -222,12 +231,12 @@
       <workItem from="1578756445823" duration="600000" />
       <workItem from="1579010717611" duration="10725000" />
       <workItem from="1579155618830" duration="22340000" />
-      <workItem from="1579442499531" duration="19331000" />
+      <workItem from="1579442499531" duration="25771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87380000" />
+    <option name="totallyTimeSpent" value="93820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,10 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
+    <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="160">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -461,10 +470,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
+    <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="261">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
         </state>
       </provider>
     </entry>
