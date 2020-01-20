@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/xubin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/array/array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/construct-function/constructor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/minigame/WeChat87a455683dfb15d0ce70d4d880d50b35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/minigame/WeChatc8a0d0973f3102627cc531a32b0417f8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/minigame/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/minigame/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/minigame/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cv/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cv/src/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/cv/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/minigame/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/minigame/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/window.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/content/window.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,37 +20,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/minigame/game.html">
+        <entry file="file://$PROJECT_DIR$/content/cv/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/minigame/main.css">
+        <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/heart/heart2.html">
+        <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/minigame/WeChatc8a0d0973f3102627cc531a32b0417f8.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -62,8 +54,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -108,14 +100,18 @@
         <option value="$PROJECT_DIR$/content/constract-function/constractor.js" />
         <option value="$PROJECT_DIR$/content/construct-function/constructor.js" />
         <option value="$PROJECT_DIR$/content/array/array.js" />
-        <option value="$PROJECT_DIR$/content/minigame/main.js" />
         <option value="$PROJECT_DIR$/content/minigame/game.html" />
         <option value="$PROJECT_DIR$/content/minigame/main.css" />
+        <option value="$PROJECT_DIR$/content/minigame/main.js" />
+        <option value="$PROJECT_DIR$/content/heart/main.css" />
+        <option value="$PROJECT_DIR$/content/cv/src/main.css" />
+        <option value="$PROJECT_DIR$/content/cv/src/main.js" />
+        <option value="$PROJECT_DIR$/content/cv/src/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="754" />
+    <option name="x" value="751" />
     <option name="y" value="23" />
     <option name="width" value="677" />
     <option name="height" value="858" />
@@ -142,13 +138,14 @@
               <item name="mele-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mele-blog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="heart" type="462c0819:PsiDirectoryNode" />
+              <item name="cv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mele-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mele-blog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="minigame" type="462c0819:PsiDirectoryNode" />
+              <item name="cv" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,10 +161,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/cv/src" />
       <recent name="$PROJECT_DIR$/content/minigame" />
       <recent name="$PROJECT_DIR$/content/border-box" />
     </key>
@@ -184,15 +182,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.array.js">
+  <component name="RunManager" selected="Node.js.main.js (1)">
     <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="array.js" working-dir="$PROJECT_DIR$/content/array">
       <method v="2" />
     </configuration>
     <configuration name="constructor.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/content/construct-function/constructor.js" working-dir="$PROJECT_DIR$/content/construct-function">
       <method v="2" />
     </configuration>
+    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/content/cv/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/content/minigame">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js (1)" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.array.js" />
         <item itemvalue="Node.js.constructor.js" />
       </list>
@@ -215,12 +221,13 @@
       <workItem from="1578644271775" duration="2109000" />
       <workItem from="1578756445823" duration="600000" />
       <workItem from="1579010717611" duration="10725000" />
-      <workItem from="1579155618830" duration="20304000" />
+      <workItem from="1579155618830" duration="22340000" />
+      <workItem from="1579442499531" duration="19331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66013000" />
+    <option name="totallyTimeSpent" value="87380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,10 +239,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="23" width="677" height="858" extended-state="0" />
+    <frame x="751" y="23" width="677" height="858" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18417047" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18417047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -248,8 +255,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285528" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32898173" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285528" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50076103" side_tool="true" weight="0.32985657" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49923897" visible="true" weight="0.21121252" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -402,9 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/minigame/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/heart/heart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -412,13 +416,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/minigame/WeChatc8a0d0973f3102627cc531a32b0417f8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/heart/heart2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/minigame/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -429,10 +437,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/minigame/main.css">
+    <entry file="file://$PROJECT_DIR$/content/minigame/WeChatc8a0d0973f3102627cc531a32b0417f8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/minigame/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/cv/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
