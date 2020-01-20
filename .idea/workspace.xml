@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/content/cv/.cache/19/b94cee010518317faf0e9788eb306a.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/19/b94cee010518317faf0e9788eb306a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/cv/.cache/96/a8066c94f1345d786dabd6209a33c7.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/96/a8066c94f1345d786dabd6209a33c7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/cv/.cache/bf/854f21ee73cd98ce0ce30510dc1109.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/bf/854f21ee73cd98ce0ce30510dc1109.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/cv/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,19 +15,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/cv/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="379">
               <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
@@ -39,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="631">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
@@ -101,9 +98,9 @@
         <option value="$PROJECT_DIR$/content/minigame/main.css" />
         <option value="$PROJECT_DIR$/content/minigame/main.js" />
         <option value="$PROJECT_DIR$/content/heart/main.css" />
-        <option value="$PROJECT_DIR$/content/cv/src/index.html" />
         <option value="$PROJECT_DIR$/content/cv/src/main.js" />
         <option value="$PROJECT_DIR$/content/cv/src/main.css" />
+        <option value="$PROJECT_DIR$/content/cv/src/index.html" />
       </list>
     </option>
   </component>
@@ -219,12 +216,12 @@
       <workItem from="1578756445823" duration="600000" />
       <workItem from="1579010717611" duration="10725000" />
       <workItem from="1579155618830" duration="22340000" />
-      <workItem from="1579442499531" duration="25997000" />
+      <workItem from="1579442499531" duration="26140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94046000" />
+    <option name="totallyTimeSpent" value="94189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,24 +441,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/cv/src/index.html">
+    <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="379">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="631">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
+    <entry file="file://$PROJECT_DIR$/content/cv/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
