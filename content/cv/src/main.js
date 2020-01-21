@@ -42,6 +42,7 @@ let string = `/*你好，我是么了。
   border-radius: 50%;
   background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%, rgba(0,0,0,1) 100%);
 }
+/*太极图就这样画好了*/
 `;
 // console.log('string的长度'+string.length);
 let n = 0;

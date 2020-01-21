@@ -1,0 +1,3 @@
+.gitignore
+content/cv/node_modules/
+content/cv/.cache/

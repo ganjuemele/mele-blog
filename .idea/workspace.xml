@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/content/cv/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/.cache/10/775771b2f10db1f2aac27e36daa2b0.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/10/775771b2f10db1f2aac27e36daa2b0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/.cache/52/bec8f96be44e2988fbd3515a4fba0f.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/52/bec8f96be44e2988fbd3515a4fba0f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/.cache/ca/31b03ebc636293fe302b22a53ff992.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/.cache/ca/31b03ebc636293fe302b22a53ff992.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/dist/main.af46ece4.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/cv/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/cv/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/cv/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -27,8 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="293">
+              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -36,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="795">
+              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -98,9 +120,11 @@
         <option value="$PROJECT_DIR$/content/minigame/main.css" />
         <option value="$PROJECT_DIR$/content/minigame/main.js" />
         <option value="$PROJECT_DIR$/content/heart/main.css" />
-        <option value="$PROJECT_DIR$/content/cv/src/main.js" />
-        <option value="$PROJECT_DIR$/content/cv/src/main.css" />
         <option value="$PROJECT_DIR$/content/cv/src/index.html" />
+        <option value="$PROJECT_DIR$/content/cv/src/main.css" />
+        <option value="$PROJECT_DIR$/content/cv/src/main.js" />
+        <option value="$PROJECT_DIR$/content/cv/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -134,13 +158,6 @@
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="cv" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mele-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mele-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -159,6 +176,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$/content/cv/src" />
       <recent name="$PROJECT_DIR$/content/minigame" />
       <recent name="$PROJECT_DIR$/content/border-box" />
@@ -216,12 +235,12 @@
       <workItem from="1578756445823" duration="600000" />
       <workItem from="1579010717611" duration="10725000" />
       <workItem from="1579155618830" duration="22340000" />
-      <workItem from="1579442499531" duration="26140000" />
+      <workItem from="1579442499531" duration="27401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94189000" />
+    <option name="totallyTimeSpent" value="95450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +255,7 @@
     <frame x="751" y="23" width="677" height="858" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18417047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43378997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -250,7 +269,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32898173" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50076103" side_tool="true" weight="0.32985657" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49923897" visible="true" weight="0.21121252" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49923897" visible="true" weight="0.21121252" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,17 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/cv/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="795">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -459,6 +471,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/cv/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
