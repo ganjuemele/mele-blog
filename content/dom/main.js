@@ -42,3 +42,12 @@ const s2 = dom.find('#s2')[0];
 console.log(dom.siblings(s2));
 console.log(dom.next(s2));
 console.log(dom.previous(s2));
+
+
+
+dom.find('#test>.red')[0]; // 获取对应的元素
+console.log(dom.find('#test>.red')[0]);
+dom.style(div, 'color', 'red'); // 设置 div.style.color
+
+const divList = dom.find('.red'); // 获取多个 div.red 元素
+dom.each(divList, (n)=> console.log(n)); // 遍历 divList 里的所有元素
