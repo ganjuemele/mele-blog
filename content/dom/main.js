@@ -16,7 +16,7 @@ console.log('title: ${title}');
 dom.text(test, '+新的内容');
 dom.text(test);
 
-dom.style(test, {border: '1px solid red', color: 'blue'});
+dom.style(test, {border: '1px solid black', color: 'blue'});
 console.log(dom.style(test, 'border'));
 dom.style(test, 'border', '1px solid black');
 
@@ -45,8 +45,9 @@ console.log(dom.previous(s2));
 
 
 
+
 dom.find('#test>.red')[0]; // 获取对应的元素
-console.log(dom.find('#test>.red')[0]);
+console.log(dom.find('#test>.red'));
 dom.style(div, 'color', 'red'); // 设置 div.style.color
 
 const divList = dom.find('.red'); // 获取多个 div.red 元素
