@@ -12,6 +12,11 @@ const simplifyURL = (url) => {
 	return url.replace('https://', '').replace('http://', '').replace('www.', '')
 		.replace(/\/.*/, '')
 };
+const cacheAddDel = function () {
+	const string = JSON.stringify(hashMap);
+	localStorage.setItem('website', string);
+	parent.location.reload()
+};
 const render = () => {
 	hashMap.forEach((node,index) => {
 		const $nav = $(`<div class="nav jump">
@@ -26,10 +31,7 @@ const render = () => {
 		$nav.on('click','.delNav',(e)=> {
 			e.stopPropagation(); //阻止冒泡
 			hashMap.splice(index,1);
-			// render()
-
-			// parent.location.reload()
-			console.log(hashMap);
+			cacheAddDel()
 		})
 	});
 };
@@ -47,14 +49,5 @@ $add.on('click', () => {
 		logo: simplifyURL(url)[0].toUpperCase(),
 		url: url
 	});
-	// let last = hashMap[hashMap.push({
-	// 	logo: simplifyURL(url)[0].toUpperCase(),
-	// 	url: url
-	// }) - 1];
-	// render(last);
-	// const $nav = $(`<div class="nav jump"><div class="symbol">${last.logo}</div><div class="name">${simplifyURL(last.url)}</div></div>`)
-	// 	.insertBefore($add);
-	const string = JSON.stringify(hashMap);
-	localStorage.setItem('website', string);
-	parent.location.reload()
+	cacheAddDel()
 });
