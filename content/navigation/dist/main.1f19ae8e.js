@@ -143,15 +143,24 @@ var simplifyURL = function simplifyURL(url) {
 };
 
 var render = function render() {
-  hashMap.forEach(function (node) {
-    var $nav = $("<div class=\"nav jump\"><div class=\"symbol\">".concat(node.logo, "</div><div class=\"name\">").concat(simplifyURL(node.url), "</div></div>")).insertBefore($add);
+  hashMap.forEach(function (node, index) {
+    var $nav = $("<div class=\"nav jump\">\n\t\t\t<div class=\"symbol\">".concat(node.logo, "</div>\n\t\t\t<div class=\"name\">").concat(simplifyURL(node.url), "</div>\n\t\t\t<div class=\"delNav\">\n\t\t\t\t<svg class=\"icon\">\n\t\t\t\t\t<use xlink:href=\"#icon-delete\"></use>\n\t\t\t\t</svg>\n\t\t\t</div>\n\t\t</div>")).insertBefore($add);
+    $nav.on('click', '.delNav', function (e) {
+      e.stopPropagation(); //阻止冒泡
+
+      hashMap.splice(index, 1); // render()
+      // parent.location.reload()
+
+      console.log(hashMap);
+    });
   });
 };
 
 render();
 $('.jump').on('click', function (e) {
-  var currentURL = e.currentTarget.lastChild.innerHTML;
-  window.open('https://' + currentURL);
+  var currentURL = e.currentTarget.children[1].innerText; // console.log(currentURL)
+
+  window.open('http://' + currentURL);
 });
 $add.on('click', function () {
   var url = window.prompt('输入您要添加的站点：');

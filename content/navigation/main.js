@@ -9,20 +9,36 @@ let hashMap = websiteObj || [
 	{logo: 'B', url: 'https://www.bilibili.com'},
 ];
 const simplifyURL = (url) => {
-	return url.replace('https://','').replace('http://','').replace('www.','')
+	return url.replace('https://', '').replace('http://', '').replace('www.', '')
 		.replace(/\/.*/, '')
 };
 const render = () => {
-	hashMap.forEach(node => {
-		const $nav = $(`<div class="nav jump"><div class="symbol">${node.logo}</div><div class="name">${simplifyURL(node.url)}</div></div>`)
-			.insertBefore($add);
+	hashMap.forEach((node,index) => {
+		const $nav = $(`<div class="nav jump">
+			<div class="symbol">${node.logo}</div>
+			<div class="name">${simplifyURL(node.url)}</div>
+			<div class="delNav">
+				<svg class="icon">
+					<use xlink:href="#icon-delete"></use>
+				</svg>
+			</div>
+		</div>`).insertBefore($add);
+		$nav.on('click','.delNav',(e)=> {
+			e.stopPropagation(); //阻止冒泡
+			hashMap.splice(index,1);
+			// render()
+
+			// parent.location.reload()
+			console.log(hashMap);
+		})
 	});
 };
 render();
 
-$('.jump').on('click',function (e) {
-	const currentURL = e.currentTarget.lastChild.innerHTML;
-	window.open('https://'+ currentURL)
+$('.jump').on('click', function (e) {
+	const currentURL = e.currentTarget.children[1].innerText;
+	// console.log(currentURL)
+	window.open('http://' + currentURL)
 });
 
 $add.on('click', () => {

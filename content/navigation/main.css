@@ -48,6 +48,7 @@ body {
     border-radius: 5px;
 }
 div.symbol {
+
     font-size: 32px;
     font-family: Rockwell,"Yuppy TC",sans-serif;
     font-weight: bolder;
@@ -55,11 +56,16 @@ div.symbol {
     padding-top: 12px;
     text-align: center;
 }
-div.name{
+div.name {
     font-size: 14px;
     height: 30px;
     text-align: center;
     padding-top: 2px;
+}
+div.delNav {
+    position: relative;
+    float: right;
+    top: -83px;
 }
 @media screen and (max-width: 500px) {
     #search form{
