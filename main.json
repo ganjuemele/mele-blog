@@ -1,0 +1,7 @@
+{
+  "name": "haha",
+  "age": 20,
+  "xxx": null,
+  "has": false,
+  "abc": ["这","是","json"]
+}

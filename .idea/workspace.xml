@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/navigation/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/main.1f19ae8e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/main.1f19ae8e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/dist/main.af46ece4.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/main.af46ece4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/dist/main.af46ece4.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/main.af46ece4.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowFavorites.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -140,7 +139,10 @@
       <workItem from="1579442499531" duration="30766000" />
       <workItem from="1580030676941" duration="1484000" />
       <workItem from="1580032381615" duration="316000" />
-      <workItem from="1580033152143" duration="87164000" />
+      <workItem from="1580033152143" duration="93067000" />
+      <workItem from="1581734874059" duration="819000" />
+      <workItem from="1581737362702" duration="1058000" />
+      <workItem from="1581738610281" duration="22895000" />
     </task>
     <servers />
   </component>
