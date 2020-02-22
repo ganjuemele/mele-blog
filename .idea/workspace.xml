@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/baidu/public/321.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/baidu/public/baidu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/baidu/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/qq/public/friends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/qq/public/friends.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/qq/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/qq/public/qq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kuayu/qq/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/node-server/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/node-server/public/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/node-server/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/node-server/public/ydb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/node-server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowFavorites.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/node-server" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -70,11 +77,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/node-server/public" />
+      <recent name="$PROJECT_DIR$/content/kuayu/baidu/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$/content/cv/src" />
-      <recent name="$PROJECT_DIR$/content/minigame" />
-      <recent name="$PROJECT_DIR$/content/border-box" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/node-server" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.main.js (2)">
@@ -142,7 +152,16 @@
       <workItem from="1580033152143" duration="93067000" />
       <workItem from="1581734874059" duration="819000" />
       <workItem from="1581737362702" duration="1058000" />
-      <workItem from="1581738610281" duration="22895000" />
+      <workItem from="1581738610281" duration="24875000" />
+      <workItem from="1582004056680" duration="47000" />
+      <workItem from="1582004119636" duration="2321000" />
+      <workItem from="1582009378561" duration="6104000" />
+      <workItem from="1582175564661" duration="449000" />
+      <workItem from="1582202134440" duration="8000" />
+      <workItem from="1582290386150" duration="957000" />
+      <workItem from="1582297149558" duration="414000" />
+      <workItem from="1582351305148" duration="954000" />
+      <workItem from="1582354982547" duration="1330000" />
     </task>
     <servers />
   </component>
