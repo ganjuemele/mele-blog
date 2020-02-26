@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul {
+    list-style: none;
+}
+body > .page {
+    display: flex;
+    flex-wrap: wrap;
+}
+body > .page > section {
+    width: 50vw;
+    height: 50vh;
+    border: #66cccc 1px solid;
+}
+#app1 {
+
+    font-size: 18px;
+}
+#app1 button {
+    margin-top: 20px;
+    width: 45px;
+    height: 25px;
+    font-size: 18px;
+    border: #dedede 1px outset;
+}
+#app2 {
+}
+#app2 .tab-bar {
+    display: flex;
+}
+#app2 .tab-bar > li {
+    border: 1px solid black;
+    width: 50%;
+}
+#app2 .tab-bar > li.selected {
+     background: #dedede;
+ }
+#app2 .tab-content > li {
+    display: none;
+}
+#app2 .tab-content > li.active {
+    display: block;
+}
+
+#app3 {}
+#app3 .square {
+    border: 1px solid grey;
+    width: 80px;
+    height: 80px;
+    margin: 40px 0 0 40px;
+    transition: transform 1.5s;
+}
+#app3 .square.active {
+    transform: translate(100px,20px);
+}
+#app4 {
+}
+
+@keyframes change {
+    0% {
+        background: #fff;
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+#app4 .circle {
+    width: 80px;
+    height: 80px;
+    border: 1px deeppink solid;
+    border-radius: 40px;
+}
+#app4 .circle.active {
+    animation: change 1.5s infinite alternate-reverse linear;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

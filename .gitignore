@@ -1,3 +1,6 @@
 .gitignore
-content/cv/node_modules/
-content/cv/.cache/
+/content/cv/node_modules/
+/content/cv/.cache/
+
+/content/model-vc/.cache/
+/content/model-vc/node_modules/

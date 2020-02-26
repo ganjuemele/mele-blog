@@ -1,0 +1,22 @@
+#app4 {
+}
+
+@keyframes change {
+    0% {
+        background: #fff;
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+#app4 .circle {
+    width: 80px;
+    height: 80px;
+    border: 1px deeppink solid;
+    border-radius: 40px;
+}
+#app4 .circle.active {
+    animation: change 1.5s infinite alternate-reverse linear;
+}
