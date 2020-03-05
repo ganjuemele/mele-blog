@@ -2,30 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/app4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/db/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/public/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/public/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/public/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/public/sign_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/node-server2/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gp.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/douyin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/douyin/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/model-vc/src/base/EventBus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/model-vc/src/base/Model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/model-vc/src/base/View.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/node-server2/db/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/node-server2/db/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -84,7 +82,8 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,7 +177,11 @@
       <workItem from="1582365856466" duration="1597000" />
       <workItem from="1582448144278" duration="19155000" />
       <workItem from="1582703833898" duration="463000" />
-      <workItem from="1582706559040" duration="9404000" />
+      <workItem from="1582706559040" duration="11833000" />
+      <workItem from="1582898260865" duration="1308000" />
+      <workItem from="1582909084410" duration="773000" />
+      <workItem from="1583034348724" duration="28179000" />
+      <workItem from="1583311546613" duration="19790000" />
     </task>
     <servers />
   </component>
@@ -213,26 +216,30 @@
     </state>
     <state x="287" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581515311667" />
     <state x="287" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1582604588888" />
-    <state width="640" height="269" key="GridCell.Tab.0.bottom" timestamp="1582708807831">
+    <state x="756" y="276" key="EditFileWatcherDialog" timestamp="1583173395325">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="756" y="276" key="EditFileWatcherDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1583173395325" />
+    <state width="640" height="213" key="GridCell.Tab.0.bottom" timestamp="1582899393795">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708743" />
-    <state width="640" height="269" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582708807831" />
-    <state width="640" height="269" key="GridCell.Tab.0.center" timestamp="1582708807830">
+    <state width="640" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582899393795" />
+    <state width="640" height="213" key="GridCell.Tab.0.center" timestamp="1582899393795">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.center/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708742" />
-    <state width="640" height="269" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582708807830" />
-    <state width="640" height="269" key="GridCell.Tab.0.left" timestamp="1582708807830">
+    <state width="640" height="213" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582899393795" />
+    <state width="640" height="213" key="GridCell.Tab.0.left" timestamp="1582899393794">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.left/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708740" />
-    <state width="640" height="269" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582708807830" />
-    <state width="640" height="269" key="GridCell.Tab.0.right" timestamp="1582708807830">
+    <state width="640" height="213" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582899393794" />
+    <state width="640" height="213" key="GridCell.Tab.0.right" timestamp="1582899393795">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.right/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708742" />
-    <state width="640" height="269" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582708807830" />
+    <state width="640" height="213" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582899393795" />
     <state width="640" height="269" key="GridCell.Tab.1.bottom" timestamp="1582708807831">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -281,13 +288,23 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="640" height="269" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1582708807833" />
-    <state x="142" y="154" key="SettingsEditor" timestamp="1580183729062">
+    <state x="73" y="107" key="SettingsEditor" timestamp="1583325919190">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="142" y="154" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1580183729062" />
-    <state x="397" y="403" width="698" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580031055859">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="73" y="107" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583325919190" />
+    <state x="189" y="181" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1583307244670" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1583173353311">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1583173353311" />
+    <state x="529" y="481" width="657" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1583293107470">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="397" y="403" width="698" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1440.877@0.23.1440.877" timestamp="1580031055859" />
+    <state x="529" y="481" width="657" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1583293107470" />
+    <state x="1214" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1583290839319">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1214" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1583290839319" />
   </component>
 </project>
