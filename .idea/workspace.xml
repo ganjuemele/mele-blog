@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/douyin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/douyin/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/base/EventBus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/base/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/model-vc/src/base/View.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/model-vc/src/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/model-vc/src/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/node-server2/db/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/node-server2/db/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +164,7 @@
       <workItem from="1582898260865" duration="1308000" />
       <workItem from="1582909084410" duration="773000" />
       <workItem from="1583034348724" duration="28179000" />
-      <workItem from="1583311546613" duration="19790000" />
+      <workItem from="1583311546613" duration="25553000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,7 @@ const m = {
 	delete() {},
 	update(data) {
 		Object.assign(m.data, data)
-		eventBus.trigger('m:updated')
+		eventBus.trigger('2m:updated')
 		localStorage.setItem('index', m.data.index)
 	},
 	get() {}
@@ -47,7 +47,7 @@ const c = {
 		v.init(container)
 		v.render(m.data.index) // view = render(data)
 		c.autoBindEvents()
-		eventBus.on('m:updated', () => {
+		eventBus.on('2m:updated', () => {
 			v.render(m.data.index)
 		})
 	},

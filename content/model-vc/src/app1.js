@@ -2,7 +2,7 @@ import './app1.css'
 import $ from 'jquery'
 
 const eventBus = $(window)
-console	.log($(window))
+console.log(eventBus)
 // 数据相关都放到m
 const m = {
 	data: {
@@ -49,6 +49,7 @@ const c = {
 		v.render(m.data.n) // view = render(data)
 		c.autoBindEvents()
 		eventBus.on('m:updated', () => {
+			console.log(eventBus.on('m:updated'))
 			v.render(m.data.n)
 		})
 	},

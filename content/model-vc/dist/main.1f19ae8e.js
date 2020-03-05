@@ -11026,7 +11026,7 @@ var _jquery = _interopRequireDefault(require("jquery"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var eventBus = (0, _jquery.default)(window);
-console.log((0, _jquery.default)(window)); // 数据相关都放到m
+console.log(eventBus); // 数据相关都放到m
 
 var m = {
   data: {
@@ -11061,6 +11061,7 @@ var c = {
 
     c.autoBindEvents();
     eventBus.on('m:updated', function () {
+      console.log(eventBus.on('m:updated'));
       v.render(m.data.n);
     });
   },
@@ -11131,7 +11132,7 @@ var m = {
   delete: function _delete() {},
   update: function update(data) {
     Object.assign(m.data, data);
-    eventBus.trigger('m:updated');
+    eventBus.trigger('2m:updated');
     localStorage.setItem('index', m.data.index);
   },
   get: function get() {}
@@ -11155,7 +11156,7 @@ var c = {
     v.render(m.data.index); // view = render(data)
 
     c.autoBindEvents();
-    eventBus.on('m:updated', function () {
+    eventBus.on('2m:updated', function () {
       v.render(m.data.index);
     });
   },
