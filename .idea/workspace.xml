@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/webpack-demo/src/assets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/webpack-demo/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/webpack-demo/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/webpack-demo/src/x.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/webpack-demo/webpack.config.base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/webpack-demo/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/webpack-demo/webpack.config.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/dist/main.1f19ae8e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/model-vc/src/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/model-vc/src/app2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navigation/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -66,9 +70,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$/content/node-server" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/model-vc/src" />
       <recent name="$PROJECT_DIR$/content/node-server/public" />
@@ -76,34 +84,44 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/content" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content" />
-      <recent name="$PROJECT_DIR$/content/node-server" />
-    </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
-    <configuration name="array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="array.js" working-dir="$PROJECT_DIR$/content/array">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.test">
     <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/content/cv/src">
       <method v="2" />
     </configuration>
     <configuration name="main.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/content/dom/main.js" working-dir="$PROJECT_DIR$/content/dom">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/content/minigame">
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/content/node-server2/test.js" working-dir="$PROJECT_DIR$/content/node-server2">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/content/node-server2/test.js" working-dir="$PROJECT_DIR$/content/node-server2">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/content/webpack-demo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/content/webpack-demo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.main.js (2)" />
         <item itemvalue="Node.js.main.js (1)" />
-        <item itemvalue="Node.js.main.js" />
-        <item itemvalue="Node.js.array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -164,18 +182,13 @@
       <workItem from="1582898260865" duration="1308000" />
       <workItem from="1582909084410" duration="773000" />
       <workItem from="1583034348724" duration="28179000" />
-      <workItem from="1583311546613" duration="25553000" />
+      <workItem from="1583311546613" duration="45918000" />
+      <workItem from="1583635591638" duration="1442000" />
+      <workItem from="1583658151016" duration="1324000" />
+      <workItem from="1583768108122" duration="1853000" />
+      <workItem from="1584079143436" duration="1051000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView" selected-index="3">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -203,26 +216,30 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="756" y="276" key="EditFileWatcherDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1583173395325" />
-    <state width="640" height="213" key="GridCell.Tab.0.bottom" timestamp="1582899393795">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="800" height="248" key="GridCell.Tab.0.bottom" timestamp="1583596268604">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708743" />
     <state width="640" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1582899393795" />
-    <state width="640" height="213" key="GridCell.Tab.0.center" timestamp="1582899393795">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="800" height="248" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1583596268604" />
+    <state width="800" height="248" key="GridCell.Tab.0.center" timestamp="1583596268603">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.center/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708742" />
     <state width="640" height="213" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1582899393795" />
-    <state width="640" height="213" key="GridCell.Tab.0.left" timestamp="1582899393794">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="800" height="248" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1583596268603" />
+    <state width="800" height="248" key="GridCell.Tab.0.left" timestamp="1583596268602">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.left/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708740" />
     <state width="640" height="213" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1582899393794" />
-    <state width="640" height="213" key="GridCell.Tab.0.right" timestamp="1582899393795">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="800" height="248" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1583596268602" />
+    <state width="800" height="248" key="GridCell.Tab.0.right" timestamp="1583596268603">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="751" height="213" key="GridCell.Tab.0.right/0.23.1440.877/-1170.-1057.1920.1057@0.23.1440.877" timestamp="1581576708742" />
     <state width="640" height="213" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1582899393795" />
+    <state width="800" height="248" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1583596268603" />
     <state width="640" height="269" key="GridCell.Tab.1.bottom" timestamp="1582708807831">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -271,11 +288,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="640" height="269" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1582708807833" />
-    <state x="73" y="107" key="SettingsEditor" timestamp="1583325919190">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="893" y="119" key="SettingsEditor" timestamp="1584080025341">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="73" y="107" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583325919190" />
-    <state x="189" y="181" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1583307244670" />
+    <state x="893" y="119" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1584080025341" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1583173353311">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

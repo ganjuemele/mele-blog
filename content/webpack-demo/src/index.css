@@ -1,0 +1,8 @@
+body {
+    background-color: grey;
+}
+#app {
+    border: 1px solid aqua;
+    width: 100px;
+    height: 200px;
+}
