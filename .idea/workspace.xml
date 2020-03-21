@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b7991b0a-b72f-449c-bddb-f6c4cc28f0f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navigation/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navigation/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navigation/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navigation/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navigation/dist/main.af46ece4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/navigation/dist/main.af46ece4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +141,7 @@
       <workItem from="1581734874059" duration="819000" />
       <workItem from="1581737362702" duration="1058000" />
       <workItem from="1581738610281" duration="22895000" />
-      <workItem from="1584774729088" duration="5977000" />
+      <workItem from="1584774729088" duration="6694000" />
     </task>
     <servers />
   </component>
